@@ -144,14 +144,26 @@ footer p {
     margin: 0;
 }
 
-/* Force left alignment for all content */
-main section {
+/* Left align all text */
+main {
     text-align: left;
 }
 
-main section h1,
-main section h2,
-main section p {
+main * {
+    text-align: left;
+}
+
+section {
+    text-align: left;
+}
+
+.essay-preview {
+    text-align: left;
+}
+
+.essay-preview h2,
+.essay-preview p,
+.essay-preview .meta {
     text-align: left;
 }
 
