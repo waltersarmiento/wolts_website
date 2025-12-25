@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taste — Wolts</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Crimson+Pro:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Space Grotesk', sans-serif;
+            background-color: #0a0a0a;
+            color: #e0e0e0;
+            line-height: 1.6;
+            padding: 20px;
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+
+        nav {
+            margin-bottom: 60px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #333;
+        }
+
+        nav a {
+            color: #e0e0e0;
+            text-decoration: none;
+            margin-right: 30px;
+            font-size: 14px;
+            letter-spacing: 0.5px;
+            transition: color 0.3s ease;
+        }
+
+        nav a:hover {
+            color: #fff;
+        }
+
+        h1 {
+            font-size: 48px;
+            margin-bottom: 40px;
+            font-weight: 700;
+            letter-spacing: -1px;
+        }
+
+        .taste-item {
+            margin-bottom: 50px;
+            padding-bottom: 30px;
+            border-bottom: 1px solid #222;
+        }
+
+        .taste-item:last-child {
+            border-bottom: none;
+        }
+
+        .taste-item h2 {
+            font-size: 24px;
+            margin-bottom: 12px;
+            font-weight: 500;
+        }
+
+        .taste-item h2 a {
+            color: #e0e0e0;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        .taste-item h2 a:hover {
+            color: #fff;
+        }
+
+        .taste-item p {
+            font-family: 'Crimson Pro', serif;
+            font-size: 18px;
+            color: #b0b0b0;
+            line-height: 1.7;
+        }
+
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 36px;
+            }
+
+            .taste-item h2 {
+                font-size: 20px;
+            }
+
+            .taste-item p {
+                font-size: 16px;
+            }
+
+            nav a {
+                margin-right: 20px;
+                font-size: 13px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="essays.html">Essays</a>
+            <a href="taste.html">Taste</a>
+            <a href="https://www.linkedin.com/in/walter-ticona/" target="_blank">LinkedIn</a>
+            <a href="https://x.com/wolts_live" target="_blank">X</a>
+        </nav>
+
+        <h1>Taste</h1>
+
+        <div class="taste-item">
+            <h2><a href="https://open.spotify.com/playlist/605Z5T8Tl6ImKDmNSg0hGy?si=0a4551b0cb9b4f9c" target="_blank">Masters at Work</a></h2>
+            <p>Lo bueno nunca pasa de moda. The masters prove it.</p>
+        </div>
+
+        <div class="taste-item">
+            <h2><a href="https://www.youtube.com/watch?v=z_r3lkUKvF0" target="_blank">Diplo @ Space Club 2023</a></h2>
+            <p>The day the Space Warriors were born. You had to be there.</p>
+        </div>
+
+        <div class="taste-item">
+            <h2><a href="https://www.youtube.com/watch?v=vy-k0FopsmY&list=RDvy-k0FopsmY&start_radio=1" target="_blank">Like wine.</a></h2>
+            <p>It just gets better.</p>
+        </div>
+    </div>
+</body>
+</html>
