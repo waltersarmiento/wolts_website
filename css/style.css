@@ -57,6 +57,11 @@ main {
     max-width: 680px;
     margin: 60px auto;
     flex: 1;
+    width: 100%;
+}
+
+section {
+    width: 100%;
 }
 
 h1 {
@@ -142,29 +147,6 @@ footer {
 
 footer p {
     margin: 0;
-}
-
-/* Left align all text */
-main {
-    text-align: left;
-}
-
-main * {
-    text-align: left;
-}
-
-section {
-    text-align: left;
-}
-
-.essay-preview {
-    text-align: left;
-}
-
-.essay-preview h2,
-.essay-preview p,
-.essay-preview .meta {
-    text-align: left;
 }
 
 @media (max-width: 768px) {
